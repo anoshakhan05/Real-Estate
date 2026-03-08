@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { getFeaturedProperties } from "@/data/properties";
@@ -45,7 +46,9 @@ export default function Home() {
       {/* 2. DYNAMIC SEARCH BAR (Stark / Seamless connection) */}
       <section className="w-full bg-background border-b border-border z-30 relative -mt-[1px]">
         <div className="container mx-auto max-w-[1400px]">
-          <SearchFilter />
+          <Suspense fallback={<div className="h-16 w-full animate-pulse bg-muted rounded-none" />}>
+            <SearchFilter />
+          </Suspense>
         </div>
       </section>
 
