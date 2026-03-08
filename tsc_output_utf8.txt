@@ -1,0 +1,21 @@
+﻿real-estate-app/src/app/page.tsx(7,10): error TS2786: 'Image' cannot be used as a JSX component.
+  Its type 'ForwardRefExoticComponent<Omit<DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement>, "height" | ... 5 more ... | "srcSet"> & { ...; } & RefAttributes<...>>' is not a valid JSX element type.
+    Type 'ForwardRefExoticComponent<Omit<DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement>, "height" | ... 5 more ... | "srcSet"> & { ...; } & RefAttributes<...>>' is not assignable to type '(props: any, deprecatedLegacyContext?: any) => ReactNode'.
+      Type 'import("D:/xampp/htdocs/Practicing/Real Estate/real-estate-app/node_modules/@types/react/index").ReactNode' is not assignable to type 'React.ReactNode'.
+        Type 'ReactElement<unknown, string | JSXElementConstructor<any>>' is not assignable to type 'ReactNode'.
+          Property 'children' is missing in type 'ReactElement<unknown, string | JSXElementConstructor<any>>' but required in type 'ReactPortal'.
+real-estate-app/src/app/page.tsx(44,14): error TS2786: 'Image' cannot be used as a JSX component.
+  Its type 'ForwardRefExoticComponent<Omit<DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement>, "height" | ... 5 more ... | "srcSet"> & { ...; } & RefAttributes<...>>' is not a valid JSX element type.
+    Type 'ForwardRefExoticComponent<Omit<DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement>, "height" | ... 5 more ... | "srcSet"> & { ...; } & RefAttributes<...>>' is not assignable to type '(props: any, deprecatedLegacyContext?: any) => ReactNode'.
+      Type 'import("D:/xampp/htdocs/Practicing/Real Estate/real-estate-app/node_modules/@types/react/index").ReactNode' is not assignable to type 'React.ReactNode'.
+        Type 'ReactElement<unknown, string | JSXElementConstructor<any>>' is not assignable to type 'ReactNode'.
+          Property 'children' is missing in type 'ReactElement<unknown, string | JSXElementConstructor<any>>' but required in type 'ReactPortal'.
+src/components/property/InquiryForm.tsx(5,20): error TS2307: Cannot find module 'zod' or its corresponding type declarations.
+src/components/sections/AgentPreview.tsx(20,47): error TS2322: Type '{ children: Element; variant: "outline"; asChild: true; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+src/components/sections/HeroSection.tsx(27,39): error TS2322: Type '{ children: Element; size: "lg"; asChild: true; className: string; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+src/components/sections/HeroSection.tsx(30,57): error TS2322: Type '{ children: Element; size: "lg"; variant: "outline"; asChild: true; className: string; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & RefAttributes<HTMLButtonElement>'.
+src/components/shared/MapClient.tsx(4,64): error TS2307: Cannot find module 'react-leaflet' or its corresponding type declarations.
+src/components/shared/MapClient.tsx(6,15): error TS2307: Cannot find module 'leaflet' or its corresponding type declarations.

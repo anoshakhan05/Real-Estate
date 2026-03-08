@@ -1,0 +1,102 @@
+[
+    {
+        "id": "prop-1",
+        "title": "Modern Architectural Masterpiece",
+        "description": "Experience luxury living in this stunning modern estate featuring panoramic city views, an infinity edge pool, and state-of-the-art smart home integration.",
+        "price": 8500000,
+        "location": {
+            "address": "123 Highland Ave",
+            "city": "Beverly Hills",
+            "state": "CA",
+            "zipCode": "90210"
+        },
+        "features": {
+            "beds": 6,
+            "baths": 8,
+            "sqft": 10500,
+            "propertyType": "Single Family Home",
+            "yearBuilt": 2023
+        },
+        "amenities": [
+            "Infinity Pool",
+            "Home Theater",
+            "Wine Cellar",
+            "Smart Home",
+            "Gated Entry"
+        ],
+        "images": [
+            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1600607687710-cb4a150bc257?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "featured": true,
+        "agentId": "agent-1",
+        "status": "For Sale"
+    },
+    {
+        "id": "prop-2",
+        "title": "Contemporary Oceanfront Villa",
+        "description": "Breathtaking oceanfront villa with direct beach access, floor-to-ceiling glass walls, and an exceptional open-concept design perfect for entertaining.",
+        "price": 12750000,
+        "location": {
+            "address": "456 Coastline Blvd",
+            "city": "Malibu",
+            "state": "CA",
+            "zipCode": "90265"
+        },
+        "features": {
+            "beds": 5,
+            "baths": 6,
+            "sqft": 7200,
+            "propertyType": "Villa",
+            "yearBuilt": 2021
+        },
+        "amenities": [
+            "Private Beach",
+            "Ocean Views",
+            "Chef's Kitchen",
+            "Spa",
+            "Outdoor Kitchen"
+        ],
+        "images": [
+            "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "featured": true,
+        "agentId": "agent-2",
+        "status": "For Sale"
+    },
+    {
+        "id": "prop-3",
+        "title": "Luxury Penthouse Suite",
+        "description": "A rare opportunity to own a dual-level penthouse in the heart of the city. Features a massive private terrace and uncompromising 360-degree skyline views.",
+        "price": 4200000,
+        "location": {
+            "address": "789 Skyline Dr, Penthouse A",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90015"
+        },
+        "features": {
+            "beds": 3,
+            "baths": 4,
+            "sqft": 4100,
+            "propertyType": "Penthouse",
+            "yearBuilt": 2018
+        },
+        "amenities": [
+            "Private Terrace",
+            "Concierge",
+            "Valet Parking",
+            "Fitness Center",
+            "City Views"
+        ],
+        "images": [
+            "https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "featured": false,
+        "agentId": "agent-1",
+        "status": "For Sale"
+    }
+]
