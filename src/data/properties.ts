@@ -35,7 +35,7 @@ export const properties: Property[] = [
         ],
         images: [
             "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2000&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1600607687931-cecebd802404?q=80&w=2000&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1627582311155-d362145b4dfb?q=80&w=2000&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1627582311155-d362145b4dfb?q=80&w=2000&auto=format&fit=crop"
         ],
@@ -153,8 +153,8 @@ export const properties: Property[] = [
             "Staff Quarters"
         ],
         images: [
-            "https://images.unsplash.com/photo-1600585154526-990dced4ea0d?q=80&w=2000&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1600607688969-a5bfcd64bd40?q=80&w=2000&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2000&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2000&auto=format&fit=crop"
         ],
         featured: false,
